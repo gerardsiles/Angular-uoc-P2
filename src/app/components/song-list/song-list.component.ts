@@ -3,14 +3,14 @@ import { Subscription } from 'rxjs';
 import { SongServiceService } from 'src/app/services/song-service.service';
 
 import { SONGS } from '../../../assets/dummyData';
-import { Song } from '../song/models/Song';
+import { Song } from '../song-detail/models/Song';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
+  selector: 'app-song-list',
+  templateUrl: './song-list.component.html',
+  styleUrls: ['./song-list.component.scss'],
 })
-export class HomeComponent implements OnInit {
+export class SongListComponent implements OnInit {
   public songs: Song[] = [];
   public song: Song;
   searchTitle: string = '';
