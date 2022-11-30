@@ -3,7 +3,7 @@ import { Subscription } from 'rxjs';
 import { SongServiceService } from 'src/app/services/song-service.service';
 import { Observable, of, Subject } from 'rxjs';
 
-import { Song } from '../song/models/Song';
+import { Song } from '../song-detail/models/Song';
 
 @Component({
   selector: 'app-song-list',
