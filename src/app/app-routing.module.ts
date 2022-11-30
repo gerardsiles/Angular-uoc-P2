@@ -7,7 +7,7 @@ const routes: Routes = [
   {
     // default route => /home
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'song-list',
     pathMatch: 'full',
   },
   {

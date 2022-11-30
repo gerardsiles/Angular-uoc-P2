@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable, of, Subject } from 'rxjs';
-import { Song } from '../components/song/models/Song';
+import { Song } from '../components/song-detail/models/Song';
 
 import { map, catchError, filter } from 'rxjs/operators';
 import { SONGS } from '../../assets/dummyData';
