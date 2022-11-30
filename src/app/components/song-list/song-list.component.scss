@@ -24,6 +24,8 @@ $black: black;
 // SCSS Styles
 .new-releases {
   background-color: $dark-gray;
+  height: 100%;
+  width: 100vw;
 
   &__title {
     margin-top: 0px;
@@ -36,15 +38,28 @@ $black: black;
     }
   }
 
+  .mat-icon {
+    color: #fff;
+  }
   .search-bar {
     display: flex;
-    margin-left: 50%;
+    align-items: center;
+    align-content: center;
+    margin-left: 55%;
     transform: translateX(-50%);
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
   }
 
   &__new-releases-section {
     @include desktop {
+      margin: 0 auto;
+      max-width: 90%;
+      padding-bottom: 60px;
+
+      display: flex;
+      flex-wrap: wrap;
+    }
+    @include tablet {
       margin: 0 auto;
       max-width: 90%;
       padding-bottom: 60px;

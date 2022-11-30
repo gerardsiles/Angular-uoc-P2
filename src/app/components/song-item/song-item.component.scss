@@ -40,12 +40,12 @@ $black: black;
   &__img {
     border-radius: 50%;
     width: 100%;
-    scale:1;
+    scale: 1;
     transition: all 0.5s;
     filter: grayscale(40%);
-    &:hover{
+    &:hover {
       @include desktop {
-        scale:1.08;
+        scale: 1.08;
         border-radius: 5px 5px 0 0;
         filter: grayscale(0%);
       }

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './components/home/home.component';
+import { SongListComponent } from './components/song-list/song-list.component';
 import { SongComponent } from './components/song/song.component';
 
 const routes: Routes = [
@@ -13,7 +13,7 @@ const routes: Routes = [
   {
     // route => /home/language
     path: 'home',
-    component: HomeComponent,
+    component: SongListComponent,
   },
   {
     path: 'songs/:id',

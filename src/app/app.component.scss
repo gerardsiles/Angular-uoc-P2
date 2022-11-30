@@ -27,3 +27,10 @@ $black: black;
     justify-content: flex-start;
   }
 }
+.component__container {
+  @include tablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}

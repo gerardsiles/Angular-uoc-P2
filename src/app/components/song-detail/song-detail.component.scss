@@ -1,0 +1,39 @@
+.song-detail {
+  margin-top: 10px;
+}
+
+.cover-container {
+  position: relative;
+}
+.material-icons {
+  font-size: 36px;
+  position: absolute;
+}
+
+.song-detail img {
+  position: relative;
+  padding: 20px;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.song-detail-container {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.song-detail p {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  margin-left: 2px;
+}
+
+input[type="text"] {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
