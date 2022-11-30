@@ -1,4 +1,8 @@
-# AngularUocP2
+# AngularUocP3
+
+Para arrancar el proyecto:
+si npm start da problemas por el ng serve en codesandbox, utilizar el siguiente comando:
+ng run Angular-uoc-P1:serve:production
 
 Todas las canciones utilizadas son sin copyright, encontradas en ncs.io.
 
