@@ -3,7 +3,7 @@
     Now playing: {{ state.songTitle }}
   </h3>
   <div class="player-icons">
-    <mat-icon color="accent" *ngIf="!state.paused" class="material-icons"  (click)="playStream()">
+    <mat-icon color="accent" class="material-icons play" (click)="playStream()">
       play_arrow
     </mat-icon>
     <mat-icon color="accent" *ngIf="state.playing" (click)="togglePause()"
