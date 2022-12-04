@@ -7,19 +7,16 @@
   </div>
 
   <!-- Search Result -->
-  <h3
-    class="animated fadein results"
-    *ngIf="searchResult.length > 0 && searching"
-  >
-    Results
-  </h3>
+  <div class="" *ngIf="searchResult.length > 0 && searching">
+    <h3 class="animated fadein results">Results</h3>
 
-  <mat-list class="new-releases__new-releases-section">
-    <app-song-item
-      [song]="song"
-      *ngFor="let song of searchResult"
-    ></app-song-item>
-  </mat-list>
+    <mat-list class="new-releases__new-releases-section">
+      <app-song-item
+        [song]="song"
+        *ngFor="let song of searchResult"
+      ></app-song-item>
+    </mat-list>
+  </div>
   <!-- Inform if the search is empty -->
   <div
     *ngIf="searchResult.length < 1 && searching"

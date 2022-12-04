@@ -41,10 +41,7 @@ export class SongListComponent implements OnInit {
     this.searchTitle = searchTerm;
 
     if (searchTerm) {
-      // this.songService.search(song).subscribe((songs) => (this.songs = songs));
       this.searchResult = this.searchSongs(searchTerm);
-    } else {
-      return this.getSongs();
     }
   }
 

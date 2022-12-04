@@ -82,6 +82,7 @@ export class AudioService {
 
   playStream(url: string, songTitle: string) {
     this.state.songTitle = songTitle;
+    this.state.paused = false;
     return this.streamObservable(url).pipe(takeUntil(this.stop$));
   }
 
